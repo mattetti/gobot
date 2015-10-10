@@ -19,6 +19,8 @@ To find the uuid (unique id) of the device you want to connect to, you
 will need a way to discover available devices around you.
 Apple offers such a tool in the Xcode additional tool downloads.
 This tools is called Bluetooth Explorer and can be found in the  "Hardware IO Tools for Xcode" download.
+From there, click on the Devices > Low Energy Devices menu and start
+scanning to find your device.
 
 ### Ubuntu
 

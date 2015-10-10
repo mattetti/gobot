@@ -11,7 +11,8 @@ import (
 func main() {
 	gbot := gobot.NewGobot()
 
-	bleAdaptor := ble.NewBLEAdaptor("ble", "20:73:77:65:43:21")
+	bleAdaptor := ble.NewBLEAdaptor("ble", "0BC3340A-A54C-4AE5-9536-12470A730A95")
+	bleAdaptor.Debug = true
 	battery := ble.NewBLEBatteryDriver(bleAdaptor, "battery")
 
 	work := func() {
